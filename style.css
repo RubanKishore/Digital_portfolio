@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #856730, #14ebeb);
+    color: #fff;
+    padding-top: 20px;
+    min-height: 100px;
+    border-bottom: #ff6f61 3px solid;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 20px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #2575fc;
+}
+
+section p, section ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Projects Section */
+.project {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #ff6f61;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+ul li:hover {
+    background: #2575fc;
+}
+
+/* Contact Section */
+#contact a {
+    color: #2575fc;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p, section ul {
+        font-size: 16px;
+    }
+}.profile-photo {
+    width: 250px; /* Increase the width */
+    height: 250px; /* Increase the height */
+    border-radius: 100%; /* Keep it circular */
+    border: 3px solid #ffffff; /* Add a border */
+    margin-right: 20px; /* Space between photo and text */
+}
+/* Styling for the Download Button */
+#resume-download button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+#resume-download button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
